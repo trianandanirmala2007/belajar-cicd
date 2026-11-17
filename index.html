@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Tri Ananda Nirmala Sari</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f5f9ff;
+            color: #26354a;
+        }
+
+        header {
+            background: #1769aa;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            font-size: 23px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #c9e5ff;
+        }
+
+        .hero {
+            min-height: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #dceeff, #f5f9ff);
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            color: #1769aa;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            line-height: 1.8;
+            font-size: 17px;
+            margin-bottom: 28px;
+        }
+
+        .button {
+            background: #1769aa;
+            color: white;
+            text-decoration: none;
+            padding: 13px 28px;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #1769aa;
+            font-size: 28px;
+            margin-bottom: 22px;
+        }
+
+        section p {
+            line-height: 1.8;
+        }
+
+        .skills {
+            background: white;
+        }
+
+        .skill-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .skill {
+            background: #e3f1ff;
+            color: #1769aa;
+            padding: 14px 24px;
+            border-radius: 10px;
+        }
+
+        .contact {
+            background: #eaf4ff;
+        }
+
+        footer {
+            background: #1769aa;
+            color: white;
+            padding: 22px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>My Portfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Halo, Saya Tri Ananda Nirmala Sari!</h1>
+
+        <p>
+            Selamat datang di website portofolio saya.
+            Saya merupakan mahasiswa yang tertarik pada
+            teknologi informasi, statistika, dan
+            pengembangan website.
+        </p>
+
+        <a href="#about" class="button">Kenali Saya</a>
+    </div>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Saya adalah mahasiswa Universitas Negeri Semarang
+            yang memiliki ketertarikan dalam mempelajari
+            perkembangan teknologi digital. Melalui website
+            ini, saya ingin memperkenalkan diri, kemampuan,
+            serta pengalaman saya dalam bidang teknologi.
+        </p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Keahlian</h2>
+
+        <p>Beberapa bidang yang sedang saya pelajari:</p>
+
+        <div class="skill-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Web Development</div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Kontak</h2>
+
+        <p>Email: trianandanirmala2007@students.unnes.ac.id</p>
+        <p>Universitas Negeri Semarang</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Tri Ananda Nirmala Sari. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
