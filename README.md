@@ -1,0 +1,1 @@
+Tidak menggunakan digital ocean
